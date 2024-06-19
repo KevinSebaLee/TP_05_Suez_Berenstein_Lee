@@ -1,10 +1,8 @@
 static class Escape
 {
     private static string[] incognitasSalas;
-
     private static int estadoJuego = 1;
-
-
+    
     private static void InicializarJuego()
     {
 
@@ -17,7 +15,17 @@ static class Escape
         return siEscapo;
     }
 
-    private static bool ResolverSala(int Sala, string Incognita)
+    public static bool TerminoSala()
+    {
+        if(GetEstadoJuego() == incognitasSalas.Count()){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public static bool ResolverSala(int Sala, string Incognita)
     {
         int SalaEstado;
 
@@ -28,13 +36,10 @@ static class Escape
                 SalaEstado = GetEstadoJuego();
 
                 estadoJuego++;
-
                 return true;
             }
             else
-            {
                 return false;
-            }
         }
         else
         {

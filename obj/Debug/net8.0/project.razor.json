@@ -19334,8 +19334,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\devandroid\\Desktop\\SalaDeEscape\\Views\\Home\\Tutorial.cshtml",
+      "TargetPath": "Views\\Home\\Tutorial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\devandroid\\Desktop\\SalaDeEscape\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\devandroid\\Desktop\\SalaDeEscape\\Views\\Home\\Victoria.cshtml",
+      "TargetPath": "Views\\Home\\Victoria.cshtml",
       "FileKind": "mvc"
     },
     {
