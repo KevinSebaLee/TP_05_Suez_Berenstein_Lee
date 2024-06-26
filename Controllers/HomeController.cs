@@ -47,6 +47,10 @@ public class HomeController : Controller
     }
 
     public IActionResult Comenzar(){
-        return View($"Sala{Escape.GetEstadoJuego()}");
+        return View("Mapa");
+    }
+
+    public IActionResult IrASala(int numeroSala){
+        return View($"Sala{numeroSala}");    
     }
 }

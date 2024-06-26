@@ -19329,6 +19329,11 @@
   "RootNamespace": "SalaDeEscape",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\Views\\Home\\Mapa.cshtml",
+      "TargetPath": "Views\\Home\\Mapa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\Views\\Home\\Sala6.cshtml",
       "TargetPath": "Views\\Home\\Sala6.cshtml",
       "FileKind": "mvc"
