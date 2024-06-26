@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RiRHK2gAqQ33zoyCtqXQuv4BsIbSw55Yg9nuOHDUqdI=",
+  "Hash": "2BNqxDw4vLUWDkMZZ4whp+EE4P/WDwrESZSgCKWBMOE=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo FNAF.png"
+    },
+    {
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\MapaEscapeRoom.jpg",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/MapaEscapeRoom.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\MapaEscapeRoom.jpg"
     },
     {
       "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\js\\site.js",

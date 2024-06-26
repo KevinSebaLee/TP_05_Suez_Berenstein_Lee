@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\img\\Logo FNAF.png"
     },
     {
+      "Id": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\MapaEscapeRoom.jpg",
+      "PackagePath": "staticwebassets\\img\\MapaEscapeRoom.jpg"
+    },
+    {
       "Id": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

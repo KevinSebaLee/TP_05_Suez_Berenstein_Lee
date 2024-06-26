@@ -18,8 +18,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\devandroid\Desktop\TP_05_Suez_Berenstein_Lee
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Creditos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Sala8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhOC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/devandroid/Desktop/TP_05_Suez_Berenstein_Lee/Views/Home/Tutorial.cshtml]
