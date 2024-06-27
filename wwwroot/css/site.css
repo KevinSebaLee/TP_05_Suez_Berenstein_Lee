@@ -48,10 +48,31 @@ div:hover {
 }
 
 .Hall2{
+  border-top: 0px;
+  border-bottom: 0px;
   width: 6%;
   padding-top: 2%;
   padding-bottom: 15%;
   margin-left: 61%;
+}
+
+.Hall2 b{
+  margin-left: 25%;
+  float: left;
+}
+
+.KidsCove{
+  width: 8%;
+  padding-bottom: 6%;
+  border-right: 0;
+  margin-left: 53%;
+}
+
+.PartyRoom1{
+  width: 8%;
+  padding-bottom: 6%;
+  margin-left: 68%;
+  border-left: 0;
 }
 
 footer {
