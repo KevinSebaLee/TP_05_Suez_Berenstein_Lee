@@ -18,10 +18,8 @@ body {
   margin: 10px;
   padding: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.Fondo{
   background-color: black;
+  color: white;
 }
 
 .Oficina{
@@ -32,6 +30,7 @@ body {
 }
 
 a{
+  color: white;
   display: flex;
   transition: background-color 0.4s;
   border: 4px solid white;
@@ -48,19 +47,28 @@ a:hover {
 }
 
 .Parts{
-  width: 7%;
-  margin-left: -3.5%;
+  width: 9%;
+  margin-left: -5.2%;
   padding-bottom: 7%;
   float:left;
 }
 
 .Desk{
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
   width: 5%;
   float: left;
   margin-left: 24%;
   margin-top: 8.5%;
   padding-bottom: 10%;
 }
+
+.Desk b{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;}
+
 
 .State{
   display: block;
@@ -70,6 +78,19 @@ a:hover {
   border-left: 0;
   margin-top: 4.2%;
   float: left;
+}
+
+.Borde{
+  border-width: 4px;
+  border-color: white;
+  width: 4%;
+  height: 0.5%;
+  color: red;
+}
+
+.Borde p{
+  font-size: 5px;
+  color: wheat;
 }
 
 .KidsCove{
@@ -159,7 +180,7 @@ a:hover {
 
 .Kitchen{
   width: 12%;
-  margin-left: -0.21%;
+  margin-left: -0.25%;
   padding-bottom: 5%; 
   float: left;
 }
@@ -167,8 +188,21 @@ a:hover {
 .KidCare{
   width: 10%;
   float: left;
-  margin-left: 29.4%;
+  margin-left: -0.2%;
   border-right: 0;
   border-top: 0;
   padding-top: 3.6%;
+}
+
+.Exit{
+  display: block;
+  width: 5%;
+  margin-left: 24%;
+  margin-top: -8.6%;
+  padding-bottom: 14%;
+  float: left;
+}
+
+.Nivel1{
+  background-image: url("~/img/OfficeClean.webp");
 }
