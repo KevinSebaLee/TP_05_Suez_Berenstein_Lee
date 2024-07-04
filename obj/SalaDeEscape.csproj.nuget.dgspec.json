@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj": {}
+    "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\SalaDeEscape.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj": {
+    "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\SalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
+        "projectUniqueName": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\SalaDeEscape.csproj",
         "projectName": "SalaDeEscape",
-        "projectPath": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
-        "packagesPath": "C:\\Users\\devandroid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\obj\\",
+        "projectPath": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\SalaDeEscape.csproj",
+        "packagesPath": "C:\\Users\\warfa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\devandroid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\warfa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

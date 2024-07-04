@@ -204,5 +204,7 @@ a:hover {
 }
 
 .Nivel1{
-  background-image: url("~/img/OfficeClean.webp");
+  background-image: url('~/img/OfficeClean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
