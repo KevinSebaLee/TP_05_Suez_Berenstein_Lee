@@ -53,4 +53,13 @@ public class HomeController : Controller
     public IActionResult IrASala(int numeroSala){
         return View($"Sala{numeroSala}");    
     }
+
+    public IActionResult ApretoBoton(int ApretoBoton){
+        if(ApretoBoton == 1){
+            ViewBag.activoSala = ApretoBoton;
+            Console.WriteLine(ViewBag.activoSala);
+        }
+
+        return View($"Sala{Escape.GetEstadoJuego()}");
+    }
 }

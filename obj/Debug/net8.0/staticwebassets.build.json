@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K7QshaDH3+KtKKaHdYrpV8hlM5M7FV/EF3IsIqHc2lI=",
+  "Hash": "cpvOImFyZFyh/tkyMikTrLCqwcCe2WGZZnPKP25hqQk=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SalaDeEscape\\wwwroot",
       "Source": "SalaDeEscape",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\css\\site.css",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\favicon.ico",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\img\\Logo FNAF.png",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\Logo FNAF.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/Logo FNAF.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo FNAF.png"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\img\\MapaEscapeRoom.jpg",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\MapaEscapeRoom.jpg",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/MapaEscapeRoom.jpg",
       "AssetKind": "All",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaEscapeRoom.jpg"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\img\\OfficeClean.webp",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\OfficeClean.jpg",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/OfficeClean.webp",
+      "RelativePath": "img/OfficeClean.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\OfficeClean.webp"
+      "OriginalItemSpec": "wwwroot\\img\\OfficeClean.jpg"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\js\\site.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\warfa\\OneDrive\\Escritorio\\TP_05_Suez_Berenstein_Lee-1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -1,5 +1,15 @@
 <body>
     <div class="Nivel1">
-        <p>Hoja de Contraseñas</p>
+        <h2>Cronometro: 10:00</h2>
+        <img src="/img/OfficeClean.jpg">
+        <div class="Hoja">
+            <form action='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>
+                <input type="Submit" value="Hoja de Contraseñas">
+            </form>
+        </div>
+        
+        @if(ViewBag.activoSala != null){
+            @Console.WriteLine("ASDUJHIASDIASUDIHUSAD" + ViewBag.activoSala);
+        }
     </div>
 </body>
