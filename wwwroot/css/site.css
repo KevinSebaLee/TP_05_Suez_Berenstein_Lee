@@ -203,9 +203,7 @@ a:hover {
   padding-bottom: 14%;
   float: left;
 }
-body{
-  overflow-y: hidden;
-}
+
 .Nivel1 h2{
   position: absolute;
   transform: translate(377%, -0%);
@@ -231,4 +229,10 @@ body{
 .Hoja input:hover{
   background-color: gray;
   color: white;
+}
+
+.HojaActivada{
+  background-color: white;
+  color: black;
+  margin-top: -40%;
 }

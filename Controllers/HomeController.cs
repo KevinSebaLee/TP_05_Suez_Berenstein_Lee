@@ -55,9 +55,8 @@ public class HomeController : Controller
     }
 
     public IActionResult ApretoBoton(int ApretoBoton){
-        if(ApretoBoton == 1){
+        if(ApretoBoton != null){
             ViewBag.activoSala = ApretoBoton;
-            Console.WriteLine(ViewBag.activoSala);
         }
 
         return View($"Sala{Escape.GetEstadoJuego()}");
