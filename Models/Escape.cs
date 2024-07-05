@@ -7,7 +7,7 @@ static class Escape
     private static void InicializarJuego()
     {
         incognitasSalas = new string[8] {"2", "Rombo", "Aleman", "55+5", "Intercambiar Caballos", "Prender cerilla", "Criada", "Ciego"};
-        salasEscapadas = new bool[8]{false, false, false, false, false, false, false, false};
+        salasEscapadas = new bool[15]{false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
     }
 
     public static int GetEstadoJuego()
@@ -37,7 +37,6 @@ static class Escape
             {
                 SalaEstado = GetEstadoJuego();
                 salasEscapadas[Sala] = true;
-
 
                 estadoJuego++;
                 return true;
