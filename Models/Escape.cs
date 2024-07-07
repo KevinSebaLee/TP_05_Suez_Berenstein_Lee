@@ -2,9 +2,9 @@ static class Escape
 {
     private static string[] incognitasSalas {get; set;}
     private static bool[] salasEscapadas{get; set;}
-    private static int estadoJuego = 1;
+    public static int estadoJuego = 1;
     
-    private static void InicializarJuego()
+    public static void InicializarJuego()
     {
         incognitasSalas = new string[8] {"2", "Rombo", "Aleman", "55+5", "Intercambiar Caballos", "Prender cerilla", "Criada", "Ciego"};
         salasEscapadas = new bool[15]{false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
@@ -27,18 +27,21 @@ static class Escape
         }
     }
 
-    public static bool ResolverSala(int Sala, string Incognita)
+    public static bool ResolverSala(string Incognita)
     {
         int SalaEstado;
 
+        Console.WriteLine(incognitasSalas[GetEstadoJuego() - 1]);
+
         if (incognitasSalas != null)
         {
-            if (incognitasSalas[Sala - 2] == Incognita)
+            if (incognitasSalas[GetEstadoJuego() - 1] == Incognita)
             {
-                SalaEstado = GetEstadoJuego();
-                salasEscapadas[Sala] = true;
+                Console.WriteLine(GetEstadoJuego());
 
-                estadoJuego++;
+                SalaEstado = GetEstadoJuego();
+                salasEscapadas[SalaEstado] = true;
+
                 return true;
             }
             else

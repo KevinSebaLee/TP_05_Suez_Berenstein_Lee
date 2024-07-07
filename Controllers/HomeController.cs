@@ -26,39 +26,37 @@ public class HomeController : Controller
     {
         return View();
     }
+
     public IActionResult Habitacion(string clave){
         int sala = Escape.GetEstadoJuego();
 
-        if (sala == Escape.GetEstadoJuego())
-        {
-            if(Escape.ResolverSala(sala, clave)){
-                if(Escape.TerminoSala()){
-                    return View("Victoria");
-                }
-            }
-            else{
-                ViewBag.Error = "La respuesta escrita es incorrecta";
+        if(Escape.ResolverSala(clave)){
+            if(Escape.TerminoSala()){
+                return View("Victoria");
             }
 
             return View("Mapa");
         }
         else{
-            return RedirectToAction();
+            ViewBag.Error = "La respuesta escrita es incorrecta";
+
+            return View($"Sala{sala}");
         }
     }
 
     public IActionResult Comenzar(){
+        Escape.InicializarJuego();
         return View("Mapa");
     }
 
     public IActionResult IrASala(int numeroSala){
+        Escape.estadoJuego = numeroSala;
         return View($"Sala{numeroSala}");    
     }
 
     public IActionResult ApretoBoton(string ApretoBoton){
         if(ApretoBoton == "1"){
             ViewBag.activoSala = "5";
-            Console.WriteLine($"1 + {ViewBag.activoSala}");
         }
 
         return View($"Sala{Escape.GetEstadoJuego()}");
