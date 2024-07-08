@@ -30,7 +30,7 @@ public class HomeController : Controller
     public IActionResult Habitacion(string clave){
         int sala = Escape.GetEstadoJuego();
 
-        if(Escape.ResolverSala(clave)){
+        if(Escape.ResolverSala(clave.ToLower())){
             if(Escape.TerminoSala()){
                 return View("Victoria");
             }
@@ -50,8 +50,33 @@ public class HomeController : Controller
     }
 
     public IActionResult IrASala(int numeroSala){
-        Escape.estadoJuego = numeroSala;
-        return View($"Sala{numeroSala}");    
+        if(numeroSala <= 4){
+            Escape.estadoJuego = numeroSala;
+            return View($"Sala{numeroSala}");
+        }
+        else if(numeroSala >= 4 && numeroSala < 6)
+        {
+            if(Escape.Graph.seIngresa(3)){
+                Escape.estadoJuego = numeroSala;
+                return View($"Sala{numeroSala}");
+            }
+            else{
+                Console.WriteLine("Hola");
+                return View("Mapa");
+            }
+        }
+        else if(numeroSala >= 6 && numeroSala < 15){
+            if(Escape.Graph.seIngresa(14)){
+                Escape.estadoJuego = numeroSala;
+                return View($"Sala{numeroSala}");
+            }
+            else{
+                return View("Mapa");
+            }
+        }
+        else{
+            return View("Mapa");
+        }
     }
 
     public IActionResult ApretoBoton(string ApretoBoton){

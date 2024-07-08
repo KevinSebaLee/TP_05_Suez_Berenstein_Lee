@@ -206,7 +206,7 @@ a:hover {
 
 .Nivel1 h2{
   position: absolute;
-  transform: translate(377%, -0%);
+  transform: translate(337%, -0%);
 }
 
 .Nivel1 img{
@@ -267,4 +267,40 @@ a:hover {
   margin-left: 30%;
   margin-top: 50%;
   margin-bottom: -60%;
+}
+
+.Error{
+  display: absolute;
+  margin-left: 37%;
+  transform: translate(0, 1000%);
+  color: white;
+  font-style: oblique;
+  font-size: 200%;
+}
+
+.Boton{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.Boton img{
+  width: 20%;
+  height: auto;
+}
+
+.Contexto img{
+  float: left;
+  width: 30%;
+  height: auto;
+}
+
+.Contexto h3{
+  float: left;
+  width: 50%;
+}
+
+.Form2{
+  clear: both;
+  margin-left: 40%;
 }
