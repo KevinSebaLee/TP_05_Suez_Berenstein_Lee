@@ -8,7 +8,7 @@ static class Escape
     
     public static void InicializarJuego()
     {
-        incognitasSalas = new string[8] {"2", "rombo", "Aleman", "55+5", "Intercambiar Caballos", "Prender cerilla", "Criada", "Ciego"};
+        incognitasSalas = new string[8] {"2", "rombo", "5", "55+5", "Intercambiar Caballos", "Prender cerilla", "Criada", "Ciego"};
         salasEscapadas = new bool[17]{false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
 
         Graph = new RoomGraph(17);
@@ -44,8 +44,6 @@ static class Escape
         {
             if (incognitasSalas[GetEstadoJuego() - 1] == Incognita)
             {
-                Console.WriteLine(GetEstadoJuego());
-
                 SalaEstado = GetEstadoJuego();
                 salasEscapadas[SalaEstado] = true;
 

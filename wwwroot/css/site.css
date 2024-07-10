@@ -304,3 +304,20 @@ a:hover {
   clear: both;
   margin-left: 40%;
 }
+
+.Consigna{
+  margin-bottom: 5%;
+}
+
+.juego{
+  border: 2px solid white;
+}
+
+.juego div{
+  padding-right: 90%;
+}
+
+.juego div a{
+  padding-bottom: 50%;
+  
+}
