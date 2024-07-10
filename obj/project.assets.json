@@ -8,23 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\48044115\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\devandroid\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48044115\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
+      "projectUniqueName": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
       "projectName": "SalaDeEscape",
-      "projectPath": "C:\\Users\\48044115\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
-      "packagesPath": "C:\\Users\\48044115\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48044115\\Desktop\\TP_05_Suez_Berenstein_Lee\\obj\\",
+      "projectPath": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\SalaDeEscape.csproj",
+      "packagesPath": "C:\\Users\\devandroid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\48044115\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\devandroid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -73,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

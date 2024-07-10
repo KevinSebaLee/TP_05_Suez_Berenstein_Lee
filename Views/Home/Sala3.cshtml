@@ -4,24 +4,28 @@
         <b>Este acertijo se resuelve usando las pistas para determinar quién es el niño que tiene un pez como mascota en la sala de juegos.</b>
     </div>
 
+    @if(ViewBag.Error != null){
+            <h3 class="error">@ViewBag.Error</h3>
+    }
+
     <div class="juego">
-        <div class="niño1">
+        <div class="niño">
             <a href='@Url.Action("Habitacion", "Home", new{clave="1"})'><b>Niño 1</b></a>
         </div>
 
-        <div class="niño2">
+        <div class="niño">
             <a href='@Url.Action("Habitacion", "Home", new{clave="2"})'><b>Niño 2</b></a>
         </div>
 
-        <div class="niño3">
+        <div class="niño">
             <a href='@Url.Action("Habitacion", "Home", new{clave="5"})'><b>Niño 5</b></a>
         </div>
 
-        <div class="niño4">
+        <div class="niño">
             <a href='@Url.Action("Habitacion", "Home", new{clave="3"})'><b>Niño 3</b></a>
         </div>
 
-        <div class="niño5">
+        <div class="niño">
             <a href='@Url.Action("Habitacion", "Home", new{clave="4"})'><b>Niño 4</b></a>
         </div>
     </div>
