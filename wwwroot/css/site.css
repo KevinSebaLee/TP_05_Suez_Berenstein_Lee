@@ -257,7 +257,8 @@ a:hover {
 
 .Kitchen{
   width: 12%;
-  margin-left: -0.25%;
+  margin-left: 39.2%;
+  margin-top: -7.23%;
   padding-bottom: 5%; 
   float: left;
 }
@@ -265,17 +266,18 @@ a:hover {
 .KidCare{
   width: 10%;
   float: left;
-  margin-left: -0.2%;
+  margin-left: 29.2%;
+  margin-top: -7.23%;
   border-right: 0;
   border-top: 0;
-  padding-top: 3.6%;
+  padding-top: 4%;
 }
 
 .Exit{
   display: block;
   width: 5%;
   margin-left: 24%;
-  margin-top: -8.6%;
+  margin-top: -15.8%;
   padding-bottom: 14%;
   float: left;
 }
@@ -388,22 +390,43 @@ a:hover {
 
 .juego{
   border: 2px solid white;
-  display: flex;
-  flex-direction: row;
-  margin-top: 10%;
-  padding-bottom: 5%;
 }
 
-.niño{
-  margin-right: 20%;
+.niño{ 
+  display: flex;
   float: left;
+  margin-right: 86%;
+  align-items: end;
+}
+.niño h3{ 
+  text-align: center;
+}
+
+.niñoMedio{
+  display: flex;
+  justify-content: center;
+}
+
+.niñoAbajo{
+  display: flex;
+  float: left;
+  margin-right: 86%;
+  align-items: end;
 }
 
 .juego div a{
-  padding: 0 20% 50% 20%;
+  border: 0px;
 }
 
 .error{
   margin-left: 40%;
   color: red;
+}
+hr{
+  height: 4px;
+  background-color: #ffffffff;
+  width: 6% ;
+  float: left;
+  margin-left:45.5%;
+  margin-top: -28.05%;
 }
