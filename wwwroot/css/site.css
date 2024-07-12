@@ -123,6 +123,18 @@ a:hover {
   background-color: gray;
 }
 
+.Progreso{
+  margin-right: 91%;
+}
+
+.progreso p{
+  display: inline;
+}
+
+.Fondo section{
+  margin-top: -4%;
+}
+
 .Parts{
   width: 9%;
   margin-left: -5.2%;
@@ -357,14 +369,18 @@ a:hover {
 }
 
 .Boton{
-  position: absolute;
   margin-top: 10%;
   margin-left: 40%;
+  padding-right: 20%;
 }
 
 .Boton img{
   width: 20%;
   height: auto;
+}
+
+.Contexto{
+  margin-top: -10%;
 }
 
 .Contexto img{
@@ -375,7 +391,7 @@ a:hover {
 
 .Contexto h3{
   float: left;
-  width: 50%;
+  width: 70%;
 }
 
 .Form2{
@@ -422,6 +438,11 @@ a:hover {
   margin-left: 40%;
   color: red;
 }
+
+.Tempo{
+  text-align: center;
+}
+
 hr{
   height: 4px;
   background-color: #ffffffff;
@@ -430,3 +451,4 @@ hr{
   margin-left:45.5%;
   margin-top: -28.05%;
 }
+

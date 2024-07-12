@@ -1,6 +1,7 @@
 <body>
     <div class="Nivel1">
-        <h2>Temportizador: 10:00</h2>
+        <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
+
         @if(ViewBag.Error != null){
             <p class="Error">@ViewBag.Error</p>
         }
@@ -22,5 +23,20 @@
                 </form>
             </div>
         }
+
+        <script>
+            let tiempo = 600; 
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                }
+                tiempo--;
+            }, 600);
+        </script>
+
     </div>
 </body>

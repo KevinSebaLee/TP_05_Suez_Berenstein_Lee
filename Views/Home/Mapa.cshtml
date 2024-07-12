@@ -1,4 +1,7 @@
 <body class="Fondo">
+
+    <a href='@Url.Action("Progreso")' class="Progreso"><h2>Ver el Progreso</h2></a>
+
     <section>
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="1"})' class="Oficina">
             @{Escape.estadoJuego = 1;}
@@ -6,7 +9,6 @@
                 <b>Office</b>
             </div>
         </a>
-        
         
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="13"})' class="Desk">
             @{Escape.estadoJuego = 13;}

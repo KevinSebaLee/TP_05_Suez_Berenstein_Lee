@@ -31,6 +31,23 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Comenzar(){
+        Escape.InicializarJuego();
+        return View("Mapa");
+    }
+
+    public IActionResult Progreso(){
+        return View();
+    }
+
+    public IActionResult ApretoBoton(string ApretoBoton){
+        if(ApretoBoton == "1"){
+            ViewBag.activoSala = "5";
+        }
+
+        return View($"Sala{Escape.GetEstadoJuego()}");
+    }
+
     public IActionResult Habitacion(string clave){
         int sala = Escape.GetEstadoJuego();
 
@@ -46,11 +63,6 @@ public class HomeController : Controller
 
             return View($"Sala{sala}");
         }
-    }
-
-    public IActionResult Comenzar(){
-        Escape.InicializarJuego();
-        return View("Mapa");
     }
 
     public IActionResult IrASala(int numeroSala){
@@ -81,13 +93,5 @@ public class HomeController : Controller
         else{
             return View("Mapa");
         }
-    }
-
-    public IActionResult ApretoBoton(string ApretoBoton){
-        if(ApretoBoton == "1"){
-            ViewBag.activoSala = "5";
-        }
-
-        return View($"Sala{Escape.GetEstadoJuego()}");
     }
 }
