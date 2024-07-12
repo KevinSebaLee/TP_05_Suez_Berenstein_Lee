@@ -31,9 +31,13 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Mapa(){
+        return View();
+    }
+
     public IActionResult Comenzar(){
         Escape.InicializarJuego();
-        return View("Mapa");
+        return RedirectToAction("Mapa");
     }
 
     public IActionResult Progreso(){
@@ -66,7 +70,7 @@ public class HomeController : Controller
     }
 
     public IActionResult IrASala(int numeroSala){
-        if(numeroSala <= 5){
+        if(numeroSala < 6){
             Escape.estadoJuego = numeroSala;
             return View($"Sala{numeroSala}");
         }
@@ -77,7 +81,6 @@ public class HomeController : Controller
                 return View($"Sala{numeroSala}");
             }
             else{
-                Console.WriteLine("Hola");
                 return View("Mapa");
             }
         }

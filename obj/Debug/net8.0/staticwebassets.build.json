@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n7l5ezEncGPXOgNpGXm+6uKnvqGvO0bRgR8OPTpuCkM=",
+  "Hash": "hok3p6PJo59STzNDowzj22e0f79bfUisPtp6odqduuQ=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Carousel 3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\hall2.webp",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/hall2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hall2.webp"
     },
     {
       "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Suez_Berenstein_Lee\\wwwroot\\img\\Logo FNAF.png",

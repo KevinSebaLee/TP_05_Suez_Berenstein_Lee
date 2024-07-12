@@ -1,15 +1,19 @@
 static class Escape
 {
-    private static string[] incognitasSalas {get; set;}
-    public static bool[] salasEscapadas{get; set;}
-
+    private static string[] incognitasSalas { get; set; }
+    public static bool[] salasEscapadas { get; set; }
+    public static int vidas;
     public static RoomGraph Graph;
     public static int estadoJuego = 1;
-    
+
     public static void InicializarJuego()
     {
-        incognitasSalas = new string[8] {"2", "rombo", "5", "55+5", "Intercambiar Caballos", "Prender cerilla", "Criada", "Ciego"};
-        salasEscapadas = new bool[17]{false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
+        incognitasSalas = new string[9] { "2", "rombo", "5", "cerilla", "1288", "Intercambiar Caballos", "55+5", "Criada", "Ciego" };
+
+        salasEscapadas = new bool[16];
+        Array.Fill(salasEscapadas, false);
+
+        vidas = 5;
 
         Graph = new RoomGraph(17);
 
@@ -28,10 +32,12 @@ static class Escape
 
     public static bool TerminoSala()
     {
-        if(GetEstadoJuego() == incognitasSalas.Count()){
+        if (GetEstadoJuego() == incognitasSalas.Count())
+        {
             return true;
         }
-        else{
+        else
+        {
             return false;
         }
     }
@@ -39,6 +45,10 @@ static class Escape
     public static bool ResolverSala(string Incognita)
     {
         int SalaEstado;
+
+        Console.WriteLine(GetEstadoJuego());
+        Console.WriteLine(Incognita);
+        Console.WriteLine(incognitasSalas[GetEstadoJuego() - 1]);
 
         if (incognitasSalas != null)
         {

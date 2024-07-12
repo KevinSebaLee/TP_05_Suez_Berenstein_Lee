@@ -452,3 +452,41 @@ hr{
   margin-top: -28.05%;
 }
 
+.NoEscapo{
+  color: red;
+}
+
+.Escapo{
+  color: greenyellow;
+}
+
+.pregunta img{
+  filter: brightness(30%);
+  width: 10%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+}
+
+.pregunta p{
+  font-size: 130%;
+}
+
+.Error1{
+  display: absolute;
+  margin-left: 32%;
+  margin-top: -50%;
+  transform: translate(0, 1000%);
+  color: white;
+  font-style: oblique;
+  font-size: 200%;
+}
+
+.Volver{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 45%;
+  border: 0;
+  background-color: gray;
+  font-size: 150%;
+}
