@@ -14,9 +14,27 @@
                     <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Insercion de contraseñas</a>
                 </div>
             }else{
-                <div class="HojaActivada">
+                <div class="HojaActivada1">
                     <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
-                    <b>Ingrese la combinacion con los numeros dados en las salas anteriores. Se puede fijar los numeros en la opcion Progreso del mapa.</b>
+                    <b>Acertijo de los Cuatro Números
+                        Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas encuentre el numero:
+
+                        <br><br>
+
+                        El número A es el menor de los cuatro.
+                        <br>
+                        El número B está en la segunda posición.
+                        <br>
+                        El número C es el mayor de los cuatro.
+                        <br>
+                        El número D está inmediatamente antes de C.
+                        <br>
+                        El número A está en la primera posición. 
+                        
+                        <br><br>
+
+                        Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.
+                    </b>
 
                     <form action='@Url.Action("Habitacion")'>
                         <input type="number" name="clave" min="0" max="9999" autocomplete="off" required>

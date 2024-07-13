@@ -490,3 +490,57 @@ hr{
   background-color: gray;
   font-size: 150%;
 }
+
+.HojaActivada1{
+  position: absolute;
+  background-color: white;
+  margin-right: 33%;
+  margin-left: 33%;
+  margin-top: -50%;
+  padding-bottom: 30%;
+}
+
+.HojaActivada1 b{
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: -20%;
+  margin-left: 25%;
+  display: flex;
+  width: 50%;
+}
+
+.HojaActivada1 a{
+  background-color: black;
+  transition: 0.25s background-color;
+  margin-left: 90%;
+}
+
+.HojaActivada1 a:hover{
+  background-color: gray;
+  color: white;
+}
+
+.HojaActivada1 form{
+  color: black;
+  margin-left: 30%;
+  margin-top: 40%;
+  margin-bottom: -60%;
+}
+
+.completada{
+  position: absolute;
+  color: white;
+  font-size: 300%;
+  margin-top: 5%;
+  margin-left: -60%;
+}
+
+.Volver1{
+  position: absolute;
+  margin-top: -45%;
+  margin-left: 45%;
+  border: 0;
+  background-color: gray;
+  font-size: 150%;
+}
