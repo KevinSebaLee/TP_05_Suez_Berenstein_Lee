@@ -16,29 +16,36 @@
         }, 600);
     </script>
 
-    <div class="Contexto">
-        <img src="/img/Balloon_Boy.jpg">
-        <h3>Balloon Boy tenía un salón con una sola rejilla de ventilación, cuadrada y de 1m de alto por 1m de ancho. Balloon Boy tenía un problema ocular, y la ventaja dejaba entrar mucha luz. Te llamo a ti y te pidió que alterara la ventana para que sólo entrara la mitad de la luz. Pero tenía que seguir siendo cuadrada y con las mismas dimensiones de 1x1 metros. Solo se puede cambiar la forma de la ventilación. ¿Cuál sería la forma de la ventilación para que Balloon Boy pueda cumplir su objetivo?</h3>
-        @if(ViewBag.activoSala == null){
-            <div class="Boton">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Mostrar ventanilla</a>
-            </div>
-        }else{
-            <div class="Boton">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
-                <img src="~/img/Ventilacion.jfif">
-            </div>
-        }
+    @if(!(Escape.salasEscapadas[2])){
+        <div class="Contexto">
+            <img src="/img/Balloon_Boy.jpg">
+            <h3>Balloon Boy tenía un salón con una sola rejilla de ventilación, cuadrada y de 1m de alto por 1m de ancho. Balloon Boy tenía un problema ocular, y la ventaja dejaba entrar mucha luz. Te llamo a ti y te pidió que alterara la ventana para que sólo entrara la mitad de la luz. Pero tenía que seguir siendo cuadrada y con las mismas dimensiones de 1x1 metros. Solo se puede cambiar la forma de la ventilación. ¿Cuál sería la forma de la ventilación para que Balloon Boy pueda cumplir su objetivo?</h3>
+            @if(ViewBag.activoSala == null){
+                <div class="Boton">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Mostrar ventanilla</a>
+                </div>
+            }else{
+                <div class="Boton">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
+                    <img src="~/img/Ventilacion.jfif">
+                </div>
+            }
 
-        <form class="Form2" action='@Url.Action("Habitacion")'>
-            <p>¿Cuál es la respuesta?</p>
-            <input type="text" name="clave" min="0" max="1000" autocomplete="off" required>
-            <input type="submit" value="Enviar Respuesta">
-        </form>
+            <form class="Form2" action='@Url.Action("Habitacion")'>
+                <p>¿Cuál es la respuesta?</p>
+                <input type="text" name="clave" min="0" max="1000" autocomplete="off" required>
+                <input type="submit" value="Enviar Respuesta">
+            </form>
 
-        @if(ViewBag.Error != null){
-            <h3 class="error">@ViewBag.Error</h3>
-        }
-        
-    </div>
+            @if(ViewBag.Error != null){
+                <h3 class="error">@ViewBag.Error</h3>
+            }
+        </div>
+    }
+    else{
+        <div class="completoSala2">
+            <b>Ya completo la sala!</b>
+            <a href='@Url.Action("Mapa")'>Volver al mapa</a>
+        </div>
+    }
 </body>

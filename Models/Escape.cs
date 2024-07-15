@@ -3,6 +3,8 @@ static class Escape
     private static string[] incognitasSalas { get; set; }
     public static bool[] salasEscapadas { get; set; }
     public static int[] DigitosHall2 {get; set;}
+    public static int[] DigitosHall1 {get; set;}
+    private static int hall1Codigo;
     private static int hall2Codigo;
     public static int vidas;
     public static RoomGraph Graph;
@@ -12,11 +14,13 @@ static class Escape
     {
         Random rnd = new Random();
 
+        hall1Codigo = rnd.Next(9999);
         hall2Codigo = rnd.Next(9999);
 
+        DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         DigitosHall2 = hall2Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
 
-        incognitasSalas = new string[9] { "2", "rombo", "5", "cerilla", hall2Codigo.ToString(), "Intercambiar Caballos", "55+5", "Criada", "Ciego" };
+        incognitasSalas = new string[10] { "2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(),"Intercambiar Caballos", "55+5", "Criada", "Ciego" };
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);

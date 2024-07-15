@@ -1,8 +1,25 @@
 <body class="progreso">
+
+    <a class="volverMapa" href='@Url.Action("Mapa")'>Volver al mapa</a>
+
     @for(int i=0; i < Escape.salasEscapadas.Length; i++){
         if(i > 0){
-            <p>Sala @(i): @if(Escape.salasEscapadas[i] == false){
+            if(i == 1){
+                <h3>Seccion 1</h3>
+            }
+            else if(i == 6){
+                <h3>Seccion 2</h3>
+            }
+            else if(i == 10){
+                <h3>Seccion 3</h3>
+            }
+            <p>Sala @(i):
+
+            @if(Escape.salasEscapadas[i] == false){
                 <p class="NoEscapo">No escapo aún</p>
+                @if(i == 5){
+                    <br>
+                }
             }else{
                 <p class="Escapo">Escapó!</p> 
                 @if(i == 1){
@@ -13,6 +30,10 @@
                     <p>Numero C para el Hall 2: <b>@Escape.DigitosHall2[3]</b></p>
                 }else if(i == 4){
                     <p>Numero D para el Hall 2: <b>@Escape.DigitosHall2[2]</b></p>
+                }
+
+                @if(i == 5){
+                    <br>
                 }
 
             }<br></p>
